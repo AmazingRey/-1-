@@ -13,6 +13,8 @@
 		CCFA4A5E1D81468200E98425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4A5C1D81468200E98425 /* Main.storyboard */; };
 		CCFA4A601D81468200E98425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4A5F1D81468200E98425 /* Assets.xcassets */; };
 		CCFA4A631D81468200E98425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4A611D81468200E98425 /* LaunchScreen.storyboard */; };
+		CCFA4A6B1D81479900E98425 /* 跑车.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4A6A1D81479900E98425 /* 跑车.jpg */; };
+		CCFA4A6D1D81489900E98425 /* 美女.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4A6C1D81489900E98425 /* 美女.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CCFA4A5F1D81468200E98425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCFA4A621D81468200E98425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCFA4A641D81468200E98425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFA4A6A1D81479900E98425 /* 跑车.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "跑车.jpg"; sourceTree = "<group>"; };
+		CCFA4A6C1D81489900E98425 /* 美女.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				CCFA4A5F1D81468200E98425 /* Assets.xcassets */,
 				CCFA4A611D81468200E98425 /* LaunchScreen.storyboard */,
 				CCFA4A641D81468200E98425 /* Info.plist */,
+				CCFA4A6C1D81489900E98425 /* 美女.jpg */,
+				CCFA4A6A1D81479900E98425 /* 跑车.jpg */,
 				CCFA4A531D81468200E98425 /* Supporting Files */,
 			);
 			path = "广告页面跳过按钮(轮1)";
@@ -136,6 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFA4A6D1D81489900E98425 /* 美女.jpg in Resources */,
+				CCFA4A6B1D81479900E98425 /* 跑车.jpg in Resources */,
 				CCFA4A631D81468200E98425 /* LaunchScreen.storyboard in Resources */,
 				CCFA4A601D81468200E98425 /* Assets.xcassets in Resources */,
 				CCFA4A5E1D81468200E98425 /* Main.storyboard in Resources */,
