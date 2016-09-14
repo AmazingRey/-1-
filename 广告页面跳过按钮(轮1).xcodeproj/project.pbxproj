@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC3D78631D893B0000BACDF9 /* 帅哥.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CC3D78621D893B0000BACDF9 /* 帅哥.jpeg */; };
 		CCFA4A551D81468200E98425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4A541D81468200E98425 /* main.m */; };
 		CCFA4A581D81468200E98425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4A571D81468200E98425 /* AppDelegate.m */; };
 		CCFA4A5B1D81468200E98425 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4A5A1D81468200E98425 /* ViewController.m */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC3D78621D893B0000BACDF9 /* 帅哥.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "帅哥.jpeg"; sourceTree = "<group>"; };
 		CCFA4A501D81468200E98425 /* 广告页面跳过按钮(轮1).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "广告页面跳过按钮(轮1).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFA4A541D81468200E98425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCFA4A561D81468200E98425 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,10 +70,11 @@
 				CCFA4A5A1D81468200E98425 /* ViewController.m */,
 				CCFA4A5C1D81468200E98425 /* Main.storyboard */,
 				CCFA4A5F1D81468200E98425 /* Assets.xcassets */,
-				CCFA4A611D81468200E98425 /* LaunchScreen.storyboard */,
-				CCFA4A641D81468200E98425 /* Info.plist */,
 				CCFA4A6C1D81489900E98425 /* 美女.jpg */,
 				CCFA4A6A1D81479900E98425 /* 跑车.jpg */,
+				CC3D78621D893B0000BACDF9 /* 帅哥.jpeg */,
+				CCFA4A611D81468200E98425 /* LaunchScreen.storyboard */,
+				CCFA4A641D81468200E98425 /* Info.plist */,
 				CCFA4A531D81468200E98425 /* Supporting Files */,
 			);
 			path = "广告页面跳过按钮(轮1)";
@@ -145,6 +148,7 @@
 				CCFA4A6D1D81489900E98425 /* 美女.jpg in Resources */,
 				CCFA4A6B1D81479900E98425 /* 跑车.jpg in Resources */,
 				CCFA4A631D81468200E98425 /* LaunchScreen.storyboard in Resources */,
+				CC3D78631D893B0000BACDF9 /* 帅哥.jpeg in Resources */,
 				CCFA4A601D81468200E98425 /* Assets.xcassets in Resources */,
 				CCFA4A5E1D81468200E98425 /* Main.storyboard in Resources */,
 			);
@@ -308,6 +312,7 @@
 				CCFA4A691D81468200E98425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

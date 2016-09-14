@@ -9,7 +9,6 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (strong, nonatomic) UIImageView *imageView;
 @property (nonatomic, strong) UIButton    *jumpButton;
 @property (nonatomic, strong) UIButton    *backButton;
 @end
@@ -28,9 +27,9 @@
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     showADTime = 10;
-    [self.view addSubview:self.imageView];
-    [self.imageView addSubview:self.backButton];
-    [self.imageView addSubview:self.jumpButton];
+    [self.backButton addSubview:self.jumpButton];
+    [self.view addSubview:self.backButton];
+   
     [self showingADImageView];
 }
 
@@ -44,7 +43,6 @@
     NSLog(@"runloop end.");
     [self.jumpButton removeFromSuperview];
     [self.backButton removeFromSuperview];
-    [self.imageView removeFromSuperview];
 }
 
 - (void)intervalTimerToHideADImageInNewthread{
@@ -52,21 +50,13 @@
     [self performSelectorOnMainThread:@selector(setEnd) withObject:nil waitUntilDone:NO];
 }
 
-- (UIImageView *)imageView{
-    if (!_imageView) {
-        _imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
-        _imageView.image = [UIImage imageNamed:@"跑车"];
-        _imageView.backgroundColor = [UIColor blackColor];
-        _imageView.contentMode = UIViewContentModeScaleAspectFit;
-    }
-    return _imageView;
-}
-
 - (UIButton *)backButton{
     if (!_backButton) {
-        _backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        _backButton.frame = self.view.bounds;
-        _backButton.backgroundColor = [UIColor clearColor];
+        _backButton = [[UIButton alloc] initWithFrame:self.view.frame];
+        UIImage *adImage = [UIImage imageNamed:@"帅哥.jpeg"];
+        [_backButton setImage:adImage forState:UIControlStateNormal];
+        _backButton.contentMode = UIViewContentModeScaleAspectFit;
+        [_backButton setBackgroundImage:adImage forState:UIControlStateNormal];
         [_backButton addTarget:self action:@selector(tapBackAction:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _backButton;
@@ -98,9 +88,10 @@
 
 - (void)tapBackAction:(UIButton *)button{
     [self setEnd];
-    UIWebView *webView  = [[UIWebView alloc]init];
-    [webView loadRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"www.baidu.com"]]];
-    [self.view addSubview:webView];
+    UIWebView *webView  = [[UIWebView alloc]initWithFrame:self.view.frame];
+    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]];
+    [self.view addSubview: webView];
+    [webView loadRequest:request];
 }
 
 - (void)setEnd{
