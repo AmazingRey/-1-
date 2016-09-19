@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0429631D8FBCC4006AA5DE /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0429621D8FBCC4006AA5DE /* 180.png */; };
+		CC0429651D8FBDA4006AA5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0429641D8FBDA4006AA5DE /* Assets.xcassets */; };
 		CC3D78631D893B0000BACDF9 /* 帅哥.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CC3D78621D893B0000BACDF9 /* 帅哥.jpeg */; };
 		CCFA4A551D81468200E98425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4A541D81468200E98425 /* main.m */; };
 		CCFA4A581D81468200E98425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4A571D81468200E98425 /* AppDelegate.m */; };
 		CCFA4A5B1D81468200E98425 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4A5A1D81468200E98425 /* ViewController.m */; };
 		CCFA4A5E1D81468200E98425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4A5C1D81468200E98425 /* Main.storyboard */; };
-		CCFA4A601D81468200E98425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4A5F1D81468200E98425 /* Assets.xcassets */; };
 		CCFA4A631D81468200E98425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4A611D81468200E98425 /* LaunchScreen.storyboard */; };
 		CCFA4A6B1D81479900E98425 /* 跑车.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4A6A1D81479900E98425 /* 跑车.jpg */; };
 		CCFA4A6D1D81489900E98425 /* 美女.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCFA4A6C1D81489900E98425 /* 美女.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC0429621D8FBCC4006AA5DE /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		CC0429641D8FBDA4006AA5DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC3D78621D893B0000BACDF9 /* 帅哥.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "帅哥.jpeg"; sourceTree = "<group>"; };
 		CCFA4A501D81468200E98425 /* 广告页面跳过按钮(轮1).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "广告页面跳过按钮(轮1).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFA4A541D81468200E98425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -27,7 +30,6 @@
 		CCFA4A591D81468200E98425 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CCFA4A5A1D81468200E98425 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CCFA4A5D1D81468200E98425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCFA4A5F1D81468200E98425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCFA4A621D81468200E98425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCFA4A641D81468200E98425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCFA4A6A1D81479900E98425 /* 跑车.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "跑车.jpg"; sourceTree = "<group>"; };
@@ -69,7 +71,8 @@
 				CCFA4A591D81468200E98425 /* ViewController.h */,
 				CCFA4A5A1D81468200E98425 /* ViewController.m */,
 				CCFA4A5C1D81468200E98425 /* Main.storyboard */,
-				CCFA4A5F1D81468200E98425 /* Assets.xcassets */,
+				CC0429641D8FBDA4006AA5DE /* Assets.xcassets */,
+				CC0429621D8FBCC4006AA5DE /* 180.png */,
 				CCFA4A6C1D81489900E98425 /* 美女.jpg */,
 				CCFA4A6A1D81479900E98425 /* 跑车.jpg */,
 				CC3D78621D893B0000BACDF9 /* 帅哥.jpeg */,
@@ -147,9 +150,10 @@
 			files = (
 				CCFA4A6D1D81489900E98425 /* 美女.jpg in Resources */,
 				CCFA4A6B1D81479900E98425 /* 跑车.jpg in Resources */,
+				CC0429631D8FBCC4006AA5DE /* 180.png in Resources */,
 				CCFA4A631D81468200E98425 /* LaunchScreen.storyboard in Resources */,
+				CC0429651D8FBDA4006AA5DE /* Assets.xcassets in Resources */,
 				CC3D78631D893B0000BACDF9 /* 帅哥.jpeg in Resources */,
-				CCFA4A601D81468200E98425 /* Assets.xcassets in Resources */,
 				CCFA4A5E1D81468200E98425 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
