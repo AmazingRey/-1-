@@ -3,6 +3,19 @@
     {
       "idiom" : "iphone",
       "size" : "20x20",
+<<<<<<< Updated upstream
+=======
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "20x20",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "29x29",
+>>>>>>> Stashed changes
       "scale" : "2x"
     },
     {
